@@ -1,8 +1,30 @@
-.nav {
-    display: inline;
-    color: rgb(20, 20, 107);
+nav {
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    display: flex;
 }
 
-.nav-title {
-    
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+}
+
+nav > .title {
+    font-weight: bold;
+}
+.left {
+    flex: 1.75;    
+}
+
+.right {
+    flex:1;
+    text-align: right;
+}
+
+
+nav a:hover {
+    background-color: black;
+    color: white;
 }
