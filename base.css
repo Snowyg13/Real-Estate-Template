@@ -88,7 +88,7 @@ nav a:hover {
     text-align: left;
     padding: 0 20%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);    
+    grid-template-columns: repeat(3, 1fr);   
 }
 
 .latest-sale > .grid > div {
@@ -182,6 +182,7 @@ nav a:hover {
     padding: 0 20%;
     display: flex;
     justify-content: center;
+    margin-bottom: 7%;
 }
 
 .release > .flex2 * {
@@ -254,9 +255,14 @@ nav a:hover {
 }
 
 footer {
+    display: flex;
     width: 100%;
     height: 7vh;
     color: white;
     background-color: burlywood;
     text-align: center;
+}
+
+footer .right {
+    text-align: right;
 }
